@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEC3ECBF1D7E5D8D002A867F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ECBE1D7E5D8D002A867F /* main.m */; };
+		EEC3ECC21D7E5D8D002A867F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ECC11D7E5D8D002A867F /* AppDelegate.m */; };
+		EEC3ECC51D7E5D8D002A867F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ECC41D7E5D8D002A867F /* ViewController.m */; };
+		EEC3ECC81D7E5D8D002A867F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ECC61D7E5D8D002A867F /* Main.storyboard */; };
+		EEC3ECCA1D7E5D8D002A867F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ECC91D7E5D8D002A867F /* Assets.xcassets */; };
+		EEC3ECCD1D7E5D8D002A867F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ECCB1D7E5D8D002A867F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEC3ECBA1D7E5D8D002A867F /* HighVoltage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighVoltage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC3ECBE1D7E5D8D002A867F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEC3ECC01D7E5D8D002A867F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEC3ECC11D7E5D8D002A867F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEC3ECC31D7E5D8D002A867F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEC3ECC41D7E5D8D002A867F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEC3ECC71D7E5D8D002A867F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEC3ECC91D7E5D8D002A867F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC3ECCC1D7E5D8D002A867F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEC3ECCE1D7E5D8D002A867F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC3ECB71D7E5D8D002A867F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC3ECB11D7E5D8D002A867F = {
+			isa = PBXGroup;
+			children = (
+				EEC3ECBC1D7E5D8D002A867F /* HighVoltage */,
+				EEC3ECBB1D7E5D8D002A867F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC3ECBB1D7E5D8D002A867F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC3ECBA1D7E5D8D002A867F /* HighVoltage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC3ECBC1D7E5D8D002A867F /* HighVoltage */ = {
+			isa = PBXGroup;
+			children = (
+				EEC3ECC01D7E5D8D002A867F /* AppDelegate.h */,
+				EEC3ECC11D7E5D8D002A867F /* AppDelegate.m */,
+				EEC3ECC31D7E5D8D002A867F /* ViewController.h */,
+				EEC3ECC41D7E5D8D002A867F /* ViewController.m */,
+				EEC3ECC61D7E5D8D002A867F /* Main.storyboard */,
+				EEC3ECC91D7E5D8D002A867F /* Assets.xcassets */,
+				EEC3ECCB1D7E5D8D002A867F /* LaunchScreen.storyboard */,
+				EEC3ECCE1D7E5D8D002A867F /* Info.plist */,
+				EEC3ECBD1D7E5D8D002A867F /* Supporting Files */,
+			);
+			path = HighVoltage;
+			sourceTree = "<group>";
+		};
+		EEC3ECBD1D7E5D8D002A867F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC3ECBE1D7E5D8D002A867F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC3ECB91D7E5D8D002A867F /* HighVoltage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC3ECD11D7E5D8D002A867F /* Build configuration list for PBXNativeTarget "HighVoltage" */;
+			buildPhases = (
+				EEC3ECB61D7E5D8D002A867F /* Sources */,
+				EEC3ECB71D7E5D8D002A867F /* Frameworks */,
+				EEC3ECB81D7E5D8D002A867F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighVoltage;
+			productName = HighVoltage;
+			productReference = EEC3ECBA1D7E5D8D002A867F /* HighVoltage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC3ECB21D7E5D8D002A867F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					EEC3ECB91D7E5D8D002A867F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X7U48SSVUK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEC3ECB51D7E5D8D002A867F /* Build configuration list for PBXProject "HighVoltage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC3ECB11D7E5D8D002A867F;
+			productRefGroup = EEC3ECBB1D7E5D8D002A867F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC3ECB91D7E5D8D002A867F /* HighVoltage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC3ECB81D7E5D8D002A867F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC3ECCD1D7E5D8D002A867F /* LaunchScreen.storyboard in Resources */,
+				EEC3ECCA1D7E5D8D002A867F /* Assets.xcassets in Resources */,
+				EEC3ECC81D7E5D8D002A867F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC3ECB61D7E5D8D002A867F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC3ECC51D7E5D8D002A867F /* ViewController.m in Sources */,
+				EEC3ECC21D7E5D8D002A867F /* AppDelegate.m in Sources */,
+				EEC3ECBF1D7E5D8D002A867F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEC3ECC61D7E5D8D002A867F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC3ECC71D7E5D8D002A867F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEC3ECCB1D7E5D8D002A867F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC3ECCC1D7E5D8D002A867F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEC3ECCF1D7E5D8D002A867F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEC3ECD01D7E5D8D002A867F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC3ECD21D7E5D8D002A867F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7U48SSVUK;
+				INFOPLIST_FILE = HighVoltage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.HighVoltage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC3ECD31D7E5D8D002A867F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7U48SSVUK;
+				INFOPLIST_FILE = HighVoltage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.HighVoltage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC3ECB51D7E5D8D002A867F /* Build configuration list for PBXProject "HighVoltage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC3ECCF1D7E5D8D002A867F /* Debug */,
+				EEC3ECD01D7E5D8D002A867F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC3ECD11D7E5D8D002A867F /* Build configuration list for PBXNativeTarget "HighVoltage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC3ECD21D7E5D8D002A867F /* Debug */,
+				EEC3ECD31D7E5D8D002A867F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC3ECB21D7E5D8D002A867F /* Project object */;
+}
