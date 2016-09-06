@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE273EE11D7E5E0F00F57BF0 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE273EE01D7E5E0F00F57BF0 /* MainTableViewController.m */; };
+		EE273EE41D7E7C2500F57BF0 /* ValueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE273EE31D7E7C2500F57BF0 /* ValueTableViewController.m */; };
+		EE273EE71D7E7E0500F57BF0 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE273EE61D7E7E0500F57BF0 /* Cell.m */; };
+		EE273EEA1D7E7FE900F57BF0 /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = EE273EE91D7E7FE900F57BF0 /* Brain.m */; };
+		EE273F391D7E904A00F57BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE273F381D7E904A00F57BF0 /* Main.storyboard */; };
 		EEC3ECBF1D7E5D8D002A867F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ECBE1D7E5D8D002A867F /* main.m */; };
 		EEC3ECC21D7E5D8D002A867F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ECC11D7E5D8D002A867F /* AppDelegate.m */; };
-		EEC3ECC51D7E5D8D002A867F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ECC41D7E5D8D002A867F /* ViewController.m */; };
-		EEC3ECC81D7E5D8D002A867F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ECC61D7E5D8D002A867F /* Main.storyboard */; };
 		EEC3ECCA1D7E5D8D002A867F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ECC91D7E5D8D002A867F /* Assets.xcassets */; };
 		EEC3ECCD1D7E5D8D002A867F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ECCB1D7E5D8D002A867F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE273EDF1D7E5E0F00F57BF0 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = ../MainTableViewController.h; sourceTree = "<group>"; };
+		EE273EE01D7E5E0F00F57BF0 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = ../MainTableViewController.m; sourceTree = "<group>"; };
+		EE273EE21D7E7C2500F57BF0 /* ValueTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValueTableViewController.h; path = ../ValueTableViewController.h; sourceTree = "<group>"; };
+		EE273EE31D7E7C2500F57BF0 /* ValueTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValueTableViewController.m; path = ../ValueTableViewController.m; sourceTree = "<group>"; };
+		EE273EE51D7E7E0500F57BF0 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = ../Cell.h; sourceTree = "<group>"; };
+		EE273EE61D7E7E0500F57BF0 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = ../Cell.m; sourceTree = "<group>"; };
+		EE273EE81D7E7FE900F57BF0 /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Brain.h; path = ../Brain.h; sourceTree = "<group>"; };
+		EE273EE91D7E7FE900F57BF0 /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Brain.m; path = ../Brain.m; sourceTree = "<group>"; };
+		EE273F371D7E904A00F57BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC3ECBA1D7E5D8D002A867F /* HighVoltage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighVoltage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC3ECBE1D7E5D8D002A867F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEC3ECC01D7E5D8D002A867F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEC3ECC11D7E5D8D002A867F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEC3ECC31D7E5D8D002A867F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EEC3ECC41D7E5D8D002A867F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EEC3ECC71D7E5D8D002A867F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC3ECC91D7E5D8D002A867F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC3ECCC1D7E5D8D002A867F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC3ECCE1D7E5D8D002A867F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,12 +67,18 @@
 		EEC3ECBC1D7E5D8D002A867F /* HighVoltage */ = {
 			isa = PBXGroup;
 			children = (
+				EE273EDF1D7E5E0F00F57BF0 /* MainTableViewController.h */,
+				EE273EE01D7E5E0F00F57BF0 /* MainTableViewController.m */,
+				EE273EE21D7E7C2500F57BF0 /* ValueTableViewController.h */,
+				EE273EE31D7E7C2500F57BF0 /* ValueTableViewController.m */,
+				EE273EE51D7E7E0500F57BF0 /* Cell.h */,
+				EE273EE61D7E7E0500F57BF0 /* Cell.m */,
+				EE273EE81D7E7FE900F57BF0 /* Brain.h */,
+				EE273EE91D7E7FE900F57BF0 /* Brain.m */,
 				EEC3ECC01D7E5D8D002A867F /* AppDelegate.h */,
 				EEC3ECC11D7E5D8D002A867F /* AppDelegate.m */,
-				EEC3ECC31D7E5D8D002A867F /* ViewController.h */,
-				EEC3ECC41D7E5D8D002A867F /* ViewController.m */,
-				EEC3ECC61D7E5D8D002A867F /* Main.storyboard */,
 				EEC3ECC91D7E5D8D002A867F /* Assets.xcassets */,
+				EE273F381D7E904A00F57BF0 /* Main.storyboard */,
 				EEC3ECCB1D7E5D8D002A867F /* LaunchScreen.storyboard */,
 				EEC3ECCE1D7E5D8D002A867F /* Info.plist */,
 				EEC3ECBD1D7E5D8D002A867F /* Supporting Files */,
@@ -138,9 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE273F391D7E904A00F57BF0 /* Main.storyboard in Resources */,
 				EEC3ECCD1D7E5D8D002A867F /* LaunchScreen.storyboard in Resources */,
 				EEC3ECCA1D7E5D8D002A867F /* Assets.xcassets in Resources */,
-				EEC3ECC81D7E5D8D002A867F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,21 +166,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC3ECC51D7E5D8D002A867F /* ViewController.m in Sources */,
+				EE273EEA1D7E7FE900F57BF0 /* Brain.m in Sources */,
+				EE273EE71D7E7E0500F57BF0 /* Cell.m in Sources */,
 				EEC3ECC21D7E5D8D002A867F /* AppDelegate.m in Sources */,
+				EE273EE41D7E7C2500F57BF0 /* ValueTableViewController.m in Sources */,
 				EEC3ECBF1D7E5D8D002A867F /* main.m in Sources */,
+				EE273EE11D7E5E0F00F57BF0 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEC3ECC61D7E5D8D002A867F /* Main.storyboard */ = {
+		EE273F381D7E904A00F57BF0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EEC3ECC71D7E5D8D002A867F /* Base */,
+				EE273F371D7E904A00F57BF0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../../../../Downloads/HighVoltage-master/HighVoltage";
 			sourceTree = "<group>";
 		};
 		EEC3ECCB1D7E5D8D002A867F /* LaunchScreen.storyboard */ = {
@@ -310,6 +329,7 @@
 				EEC3ECD31D7E5D8D002A867F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
