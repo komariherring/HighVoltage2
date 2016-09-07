@@ -15,4 +15,5 @@
 - (NSString *)addOperandDigit:(NSString *)digit;
 - (NSString *)addOperator:(NSString *)operatorValue;
 - (NSString *)performCalculationIfPossible;
+
 @end
